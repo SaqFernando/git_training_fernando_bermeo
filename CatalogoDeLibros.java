@@ -9,6 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+//Te he roto el programa :) 
+
 public class CatalogoDeLibros {
     public static void main(String[] args) {
         List<Libro> catalogo = new ArrayList<>();
@@ -25,10 +27,8 @@ public class CatalogoDeLibros {
             System.out.println("No se encontró un catálogo existente. Se creará uno nuevo.");
         }
 
-        while (true) {
-            System.out.println("Opciones:");
-            System.out.println("1. Agregar libro");
-            System.out.println("2. Eliminar libro por ISBN");
+        whil tem.out.println("1. Agregar libro");
+            Systln("2. Eliminar libro por ISBN");
             System.out.println("3. Listar libros");
             System.out.println("4. Guardar catálogo");
             System.out.println("5. Salir");
